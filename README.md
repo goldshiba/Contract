@@ -1,0 +1,2 @@
+# Contract
+Gold Shiba Coin 
