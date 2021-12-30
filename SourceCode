@@ -1,31 +1,11 @@
 
                                                                                                                                                            
-                                                          dddddddd                                                   bbbbbbbb                              
-        GGGGGGGGGGGGG                 lllllll             d::::::d        SSSSSSSSSSSSSSS hhhhhhh               iiii b::::::b                              
-     GGG::::::::::::G                 l:::::l             d::::::d      SS:::::::::::::::Sh:::::h              i::::ib::::::b                              
-   GG:::::::::::::::G                 l:::::l             d::::::d     S:::::SSSSSS::::::Sh:::::h               iiii b::::::b                              
-  G:::::GGGGGGGG::::G                 l:::::l             d:::::d      S:::::S     SSSSSSSh:::::h                     b:::::b                              
- G:::::G       GGGGGG   ooooooooooo    l::::l     ddddddddd:::::d      S:::::S             h::::h hhhhh       iiiiiii b:::::bbbbbbbbb      aaaaaaaaaaaaa   
-G:::::G               oo:::::::::::oo  l::::l   dd::::::::::::::d      S:::::S             h::::hh:::::hhh    i:::::i b::::::::::::::bb    a::::::::::::a  
-G:::::G              o:::::::::::::::o l::::l  d::::::::::::::::d       S::::SSSS          h::::::::::::::hh   i::::i b::::::::::::::::b   aaaaaaaaa:::::a 
-G:::::G    GGGGGGGGGGo:::::ooooo:::::o l::::l d:::::::ddddd:::::d        SS::::::SSSSS     h:::::::hhh::::::h  i::::i b:::::bbbbb:::::::b           a::::a 
-G:::::G    G::::::::Go::::o     o::::o l::::l d::::::d    d:::::d          SSS::::::::SS   h::::::h   h::::::h i::::i b:::::b    b::::::b    aaaaaaa:::::a 
-G:::::G    GGGGG::::Go::::o     o::::o l::::l d:::::d     d:::::d             SSSSSS::::S  h:::::h     h:::::h i::::i b:::::b     b:::::b  aa::::::::::::a 
-G:::::G        G::::Go::::o     o::::o l::::l d:::::d     d:::::d                  S:::::S h:::::h     h:::::h i::::i b:::::b     b:::::b a::::aaaa::::::a 
- G:::::G       G::::Go::::o     o::::o l::::l d:::::d     d:::::d                  S:::::S h:::::h     h:::::h i::::i b:::::b     b:::::ba::::a    a:::::a 
-  G:::::GGGGGGGG::::Go:::::ooooo:::::ol::::::ld::::::ddddd::::::dd     SSSSSSS     S:::::S h:::::h     h:::::hi::::::ib:::::bbbbbb::::::ba::::a    a:::::a 
-   GG:::::::::::::::Go:::::::::::::::ol::::::l d:::::::::::::::::d     S::::::SSSSSS:::::S h:::::h     h:::::hi::::::ib::::::::::::::::b a:::::aaaa::::::a 
-     GGG::::::GGG:::G oo:::::::::::oo l::::::l  d:::::::::ddd::::d     S:::::::::::::::SS  h:::::h     h:::::hi::::::ib:::::::::::::::b   a::::::::::aa:::a
-        GGGGGG   GGGG   ooooooooooo   llllllll   ddddddddd   ddddd      SSSSSSSSSSSSSSS    hhhhhhh     hhhhhhhiiiiiiiibbbbbbbbbbbbbbbb     aaaaaaaaaa  aaaa
-                                                                                                                                                           
-                                                                                                                                                           
 */ GOLD SHIBA is a  Hyper-Deflationary token with passive rewards reflecting to its holders. Our mission is to create wealth and interactive blockchain solutions accessible to everyone.
 GOLD SHIBA's primarily project aims to provide a dynamic and strong token that will access various  solutions.  Decentralized and operating under Binance Smart Chain utilizing smart contracts with much greater speed and efficiency than other competing chains.
 Unlike other comparable projects, GOLD SHIBA introduces holders to next generation Utility-NFTs, Metaverse Game, Holders Rewards, Decentralized exchanges and more. 
 **/                                                                                                                                                            
                                                                                                                                                            
-                                                                                                                                                           
-																			   ********************************************************************************************************************************************************************************
+																			  
 
 // SPDX-License-Identifier: Unlicensed
 pragma solidity ^0.8.7;
@@ -462,7 +442,7 @@ contract GoldShiba is IBEP20, ReentrancyGuard, Context, Ownable {
 	mapping(address => bool) private _isExcludedFromFee;
 
 	address private constant _burnAddress           = 0x000000000000000000000000000000000000dEaD;
-	address payable public constant marketingWallet = payable(0x0Bc13e2E5FdE988e4312C5FF785790b62e3E0466);
+	address payable public constant marketingWallet = payable(0x000000000000000000000000000000000);
 
     string private constant _name          = "Gold Shiba";
     string private constant _symbol        = "GOSH";
